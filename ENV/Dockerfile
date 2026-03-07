@@ -1,4 +1,4 @@
-FROM almalinux:9
+FROM almalinux:latest
 
 ENV course = "Devops with AWS" \
     trainer = "ram" \
