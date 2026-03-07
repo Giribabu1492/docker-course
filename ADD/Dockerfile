@@ -8,5 +8,7 @@ ADD https://raw.githubusercontent.com/Giribabu1492/docker-course/refs/heads/main
 
 RUN chmod +r /usr/share/nginx/html/index.html
 
+ADD sample-1.tar /tmp/
+
 CMD ["nginx", "-g", "daemon off;"]
 
